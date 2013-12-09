@@ -27,7 +27,7 @@ Don't forget to start up Xcode once it's installed so that you can agree to the 
   
 ### 3. Clone this project
 
-    git clone https://github.com/pivotal-sprout/sprout-wrap.git
+    git clone https://github.com/ryanhanks-wf/veggie-salad.git
     cd sprout-wrap
 
 ### 4. Install soloist & and other required gems
