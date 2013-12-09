@@ -1,4 +1,4 @@
-# sprout-wrap
+# veggie-wrap
 
 This project uses [soloist](https://github.com/mkocher/soloist) and [librarian-chef](https://github.com/applicationsonline/librarian-chef)
 to run a subset of the recipes in sprout's [cookbooks]((https://github.com/pivotal-sprout/sprout).
