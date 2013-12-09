@@ -9,8 +9,6 @@ you'd like to use for your team. You may also want to add other cookbooks to its
 of the many [community cookbooks](http://community.opscode.com/cookbooks). By default it configures an OS X 
 Mavericks workstation for Books development.
 
-Finally, if you've never used Chef before - it's highly recommend you buy &amp; watch [this excellent 17 minute screencast](http://railscasts.com/episodes/339-chef-solo-basics) by Ryan Bates. 
-
 ## Installation under Mavericks (OS X 10.9)
 
 ### 1. Install XCode
