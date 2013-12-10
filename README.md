@@ -3,11 +3,11 @@
 This project uses [soloist](https://github.com/mkocher/soloist) and [librarian-chef](https://github.com/applicationsonline/librarian-chef)
 to run a subset of the recipes in sprout's [cookbooks]((https://github.com/pivotal-sprout/sprout).
 
-[Fork it](https://github.com/ryanhanks-wf/veggie-salad/fork) to 
+[Fork it](https://github.com/ryanhanks/veggie-salad/fork) to 
 customize its [attributes](http://docs.opscode.com/chef_overview_attributes.html) in [soloistrc](/soloistrc) and the list of recipes 
-you'd like to use for your team. You may also want to add other cookbooks to its [Cheffile](/Cheffile), perhaps one 
+you'd like to use. You may also want to add other cookbooks to its [Cheffile](/Cheffile), perhaps one 
 of the many [community cookbooks](http://community.opscode.com/cookbooks). By default it configures an OS X 
-Mavericks workstation for Books development.
+Mavericks workstation for development.
 
 ## Installation under Mavericks (OS X 10.9)
 
@@ -23,7 +23,7 @@ Don't forget to start up Xcode once it's installed so that you can agree to the 
   
 ### 3. Clone this project
 
-    git clone https://github.com/ryanhanks-wf/veggie-salad.git
+    git clone https://github.com/ryanhanks/veggie-salad.git
     cd veggie-salad
 
 ### 4. Install soloist & and other required gems
