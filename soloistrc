@@ -27,13 +27,6 @@ recipes:
 
 # apps (editors)
 - sprout-osx-apps::sublime_text
-- sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
-
-- sprout-osx-apps::macvim
-- sprout-osx-apps::ctags_exuberant
-- sprout-osx-apps::rubymine
-- sprout-osx-rubymine::preferences
 
 node_attributes:
   git_projects:
