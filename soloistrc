@@ -19,11 +19,6 @@ recipes:
 - pivotal_workstation::git_config_global_defaults
 - sprout-osx-git::git_scripts
 
-# development (rails)
-- sprout-osx-rbenv
-- pivotal_workstation::gem_setup
-- sprout-osx-apps::node_js
-
 # apps
 - sprout-osx-apps::chrome
 - pivotal_workstation::mouse_locator
@@ -32,13 +27,6 @@ recipes:
 
 # apps (editors)
 - sprout-osx-apps::sublime_text
-- sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
-
-- sprout-osx-apps::macvim
-- sprout-osx-apps::ctags_exuberant
-- sprout-osx-apps::rubymine
-- sprout-osx-rubymine::preferences
 
 node_attributes:
   git_projects:
