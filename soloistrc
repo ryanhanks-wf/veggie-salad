@@ -19,11 +19,6 @@ recipes:
 - pivotal_workstation::git_config_global_defaults
 - sprout-osx-git::git_scripts
 
-# development (rails)
-- sprout-osx-rbenv
-- pivotal_workstation::gem_setup
-- sprout-osx-apps::node_js
-
 # apps
 - sprout-osx-apps::chrome
 - pivotal_workstation::mouse_locator
