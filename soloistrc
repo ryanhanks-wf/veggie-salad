@@ -31,7 +31,7 @@ recipes:
 - sprout-osx-apps::iterm2
 
 # apps (editors)
-- sprout-osx-apps::sublime-text
+- sprout-osx-apps::sublime_text
 - sprout-osx-apps::textmate_bundles
 - sprout-osx-apps::textmate_preferences
 
