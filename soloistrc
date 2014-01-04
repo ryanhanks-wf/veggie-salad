@@ -24,6 +24,7 @@ recipes:
 - pivotal_workstation::mouse_locator
 - pivotal_workstation::bettertouchtool
 - sprout-osx-apps::iterm2
+- sprout-osx-apps::java
 
 # apps (editors)
 - sprout-osx-apps::sublime_text
