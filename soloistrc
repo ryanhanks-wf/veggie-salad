@@ -34,3 +34,11 @@ node_attributes:
     -
       - viggie-salad
       - https://github.com/ryanhanks/veggie-salad.git
+  sprout:
+    homebrew:
+      casks:
+      - witch
+      - totalspaces
+      - omnifocus
+      - onepassword
+      - google-notifier
