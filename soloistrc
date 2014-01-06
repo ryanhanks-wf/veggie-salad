@@ -11,6 +11,7 @@ recipes:
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - pivotal_workstation::locate_on
 - sprout-osx-settings::global_environment_variables
+- sprout-osx-settings::dock_preferences
 
 # development (general)
 - sprout-osx-base::workspace_directory
@@ -42,3 +43,6 @@ node_attributes:
       - omnifocus
       - onepassword
       - google-notifier
+  dock_preferences:
+    orientation: bottom
+    tilesize: 50
