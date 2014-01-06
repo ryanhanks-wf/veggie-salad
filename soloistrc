@@ -33,7 +33,7 @@ recipes:
 node_attributes:
   git_projects:
     -
-      - viggie-salad
+      - veggie-salad
       - https://github.com/ryanhanks/veggie-salad.git
   sprout:
     homebrew:
