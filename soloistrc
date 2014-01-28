@@ -43,6 +43,8 @@ node_attributes:
       - omnifocus
       - onepassword
       - google-notifier
+      - bettertouchtool
+      - jing
   dock_preferences:
     orientation: bottom
     tilesize: 50
