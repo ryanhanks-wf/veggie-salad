@@ -48,3 +48,4 @@ node_attributes:
   dock_preferences:
     orientation: bottom
     tilesize: 50
+ workspace_directory: Development
