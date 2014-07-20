@@ -39,11 +39,7 @@ node_attributes:
       casks:
       - witch
       - totalspaces
-      - omnifocus
-      - onepassword
-      - google-notifier
       - bettertouchtool
-      - jing
       - iterm2
   dock_preferences:
     orientation: bottom
