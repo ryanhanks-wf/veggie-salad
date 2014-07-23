@@ -7,7 +7,7 @@ recipes:
 - sprout-homebrew
 
 # settings
-- pivotal_workstation::inputrc
+# - pivotal_workstation::inputrc
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-settings
 - sprout-osx-settings::dock_preferences
@@ -24,8 +24,8 @@ recipes:
 
 # apps
 - sprout-osx-apps::chrome
-- pivotal_workstation::mouse_locator
-- pivotal_workstation::bettertouchtool
+#- pivotal_workstation::mouse_locator
+#- pivotal_workstation::bettertouchtool
 
 # apps (editors)
 - sprout-osx-apps::sublime_text
@@ -37,11 +37,22 @@ recipes:
 - sprout-osx-apps::macvim
 
 node_attributes:
+  workspace_directory: Workspaces
   sprout:
-    git_projects:
-      -
-        - veggie-salad
-        - https://github.com/ryanhanks/veggie-salad.git
+    dock_preferences:
+      orientation: bottom
+    git:
+      workspace_directory: Workspaces
+      domain: gmail.com
+      authors:
+        -
+          - initials: rh
+          - name: Ryan Hanks
+          - username: ryandhanks
+      projects:
+        -
+          - veggie-salad
+          - git@github.com:ryanhanks/veggie-salad.git
     terminal:
       default_profile: 'Pro'
     settings:
