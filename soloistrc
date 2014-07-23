@@ -7,8 +7,6 @@ recipes:
 - sprout-homebrew
 
 # settings
-# - pivotal_workstation::inputrc
-- sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-settings
 - sprout-osx-settings::dock_preferences
 - sprout-terminal
@@ -22,10 +20,17 @@ recipes:
 - sprout-git::projects
 - sprout-git::git_scripts
 
+# development (rails)
+- sprout-rbenv
+- sprout-ruby
+
 # apps
-- sprout-osx-apps::chrome
-#- pivotal_workstation::mouse_locator
-#- pivotal_workstation::bettertouchtool
+- sprout-osx-apps::iterm2
+- sprout-osx-apps::flycut
+- sprout-osx-apps::shiftit
+
+
+
 
 # apps (editors)
 - sprout-osx-apps::sublime_text
@@ -51,8 +56,17 @@ node_attributes:
           - username: ryandhanks
       projects:
         -
-          - veggie-salad
-          - git@github.com:ryanhanks/veggie-salad.git
+          name: veggie-salad
+          url: git@github.com:ryanhanks/veggie-salad.git
+        -
+          name: pk-mobile-frontend
+          url: git@github.com:ryanhanks/pk-mobile-frontend
+        -
+          name: pk-backend
+          url: git@github.com:ryanhanks/pk-backend
+        -
+          name: pk-ios-app
+          url: git@github.com:ryanhanks/pk-ios-app
     terminal:
       default_profile: 'Pro'
     settings:
