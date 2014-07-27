@@ -2,11 +2,7 @@
 
 site "https://supermarket.getchef.com/api/v1"
 
-cookbook "homebrewalt", :github => "kitchenplan/chef-homebrewalt", :ref => "v1.8.6"
-
-cookbook "dotfiles", :github => "kitchenplan/chef-dotfiles", :ref => "v1.2"
-
-cookbook 'applications', :github => 'kitchenplan/chef-applications'
+cookbook 'sublime-text', :github => 'ryanhanks/chef-sublime-text'
 
 cookbook 'witch', :github => 'ryanhanks/witch'
 

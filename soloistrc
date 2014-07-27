@@ -33,9 +33,7 @@ recipes:
 
 
 # apps (editors)
-- sprout-osx-apps::sublime_text
-# - applications::sublime_text_3
-
+- sublime-text
 
 # - sprout-osx-apps::macvim
 - witch::default
