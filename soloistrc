@@ -80,17 +80,16 @@ node_attributes:
     homebrew:
       formulae:
         - ag
+        - xctool
+        - ios-sim
         - chromedriver
-        - imagemagick
-        - node
-        - pstree
-        - ssh-copy-id
-        - tmux
-        - tree
-        - watch
         - wget
       casks:
         - github
         - google-chrome
+        - dropbox
+        - vmware-fusion
+        - witch
+
 
 
