@@ -89,6 +89,7 @@ node_attributes:
         - dropbox
         - vmware-fusion
         - witch
+        - onepassword
 
 
 
