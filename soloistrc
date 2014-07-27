@@ -48,25 +48,27 @@ node_attributes:
       orientation: bottom
     git:
       workspace_directory: Workspaces
-      domain: gmail.com
-      authors:
-        -
-          - initials: rh
-          - name: Ryan Hanks
-          - username: ryandhanks
+    git:
+      global_config:
+        user.name: '"Ryan Hanks"'
+        user.email: ryandhanks@gmail.com
       projects:
         -
-          name: veggie-salad
-          url: git@github.com:ryanhanks/veggie-salad.git
-        -
-          name: pk-mobile-frontend
-          url: git@github.com:ryanhanks/pk-mobile-frontend
-        -
-          name: pk-backend
-          url: git@github.com:ryanhanks/pk-backend
-        -
-          name: pk-ios-app
+          name: ios-app
           url: git@github.com:ryanhanks/pk-ios-app
+          workspace_path: ~/Workspaces/pk
+        -
+          name: mobile-frontend
+          url: git@github.com:ryanhanks/pk-mobile-frontend
+          workspace_path: ~/Workspaces/pk
+        -
+          name: backend
+          url: git@github.com:ryanhanks/pk-backend
+          workspace_path: ~/Workspaces/pk
+        -
+          name: osx-interaction-preferences
+          url: git@github.com:ryanhanks/cookbooks-osx-interaction-preferences
+          workspace_path: ~/Workspaces/cookbooks/osx-interaction-preferences
     terminal:
       default_profile: 'Pro'
     settings:
