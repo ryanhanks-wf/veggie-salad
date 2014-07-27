@@ -121,7 +121,7 @@ GIT
 GIT
   remote: https://github.com/ryanhanks/chef-sublime-text
   ref: master
-  sha: fcc1e2d8275fcf2bd8c7ec0fc28c5151c9e46421
+  sha: 71c76d9ffdb4f3fa5f0702c67e282b798795f5d9
   specs:
     sublime-text (2.0.0)
       sprout-homebrew (>= 0.0.0)
