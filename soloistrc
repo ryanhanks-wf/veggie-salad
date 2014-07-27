@@ -45,7 +45,7 @@ recipes:
 
 node_attributes:
   bash_it:
-    repository: git@github.com:ryanhanks/bash_it
+    repository: git@github.com:ryanhanks/bash-it
   workspace_directory: Workspaces
   sprout:
     dock_preferences:
