@@ -20,6 +20,7 @@ Mavericks workstation for development.
 
 ## Installation under Mavericks (OS X 10.9)
 
+1. Run provisioning script
 ```bash
 mkdir ~/Workspaces
 cd ~/Workspaces
@@ -29,8 +30,13 @@ sudo gem install bundler
 sudo ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future bundle
 sudo pmset sleep 90
 time bundle exec soloist
-
+cd ~/.bash_it
+git remote set-url origin git@github.com:ryanhanks/bash-it
 ```
+
+2. Enable Witch
+3. Restart
+4. Take snapshot
 
 See Pivotal Tracker: https://www.pivotaltracker.com/s/projects/884116
 
