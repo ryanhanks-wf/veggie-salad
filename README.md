@@ -36,6 +36,10 @@ git remote set-url origin git@github.com:ryanhanks/bash-it
 
 2. Enable Witch
 3. Restart
+4. Log in to drop box
+5. Wait for sync
+6. Open 1password
+7. Log in to chrome
 4. Take snapshot
 
 See Pivotal Tracker: https://www.pivotaltracker.com/s/projects/884116
