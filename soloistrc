@@ -45,9 +45,14 @@ recipes:
 
 node_attributes:
   bash_it:
-    repository: git@github.com:ryanhanks/bash-it
+    repository: https://github.com/ryanhanks/bash-it
   workspace_directory: Workspaces
   sprout:
+    rbenv:
+      rubies:
+        - 1.9.3-p448
+        - 2.0.0-p247
+      default_ruby: 1.9.3-p448
     dock_preferences:
       orientation: bottom
     git:
