@@ -9,41 +9,29 @@ you'd like to use. You may also want to add other cookbooks to its [Cheffile](/C
 of the many [community cookbooks](http://community.opscode.com/cookbooks). By default it configures an OS X 
 Mavericks workstation for development.
 
+## Creating a machine base image
+
+1. Finalize OS X install
+2. Install software updates
+3. xcode-select --install
+4. Install VMWare Tools
+5. Install Xcode
+6. Create and upload github tokens
+
 ## Installation under Mavericks (OS X 10.9)
 
-### 1. Install Command Line Tools
-  
-    xcode-select --install
+```bash
+mkdir ~/Workspaces
+cd ~/Workspaces
+git clone git@github.com:ryanhanks/veggie-salad
+cd veggie-salad
+sudo gem install bundler
+sudo bundle
+sudo pmset sleep 90
+sudo ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future bundle
+bundle exec soloist
 
-If you receive a message about the update server being unavailable and are on Mavericks, then you already have the command line tools.
-
-### 2. Clone this project
-
-    git clone https://github.com/ryanhanks/veggie-salad.git
-    cd veggie-salad
-
-### 3. Install soloist & and other required gems
-
-If you're running under rvm or rbenv, you shouldn't preface the following commands with `sudo`.
-
-    sudo gem install bundler
-    sudo bundle
-
-### 5. Configure Sleep Behavior
-
-```shell
-    sudo pmset sleep 90
 ```
-
-### 6. Run soloist
-If you receive errors like this:
-
-    clang: error: unknown argument: '-multiply_definedsuppress'
-
-then try downgrading those errors like this:
-
-    sudo ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future bundle
-
 
 See Pivotal Tracker: https://www.pivotaltracker.com/s/projects/884116
 
