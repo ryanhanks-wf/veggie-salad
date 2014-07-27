@@ -2,6 +2,8 @@
 
 site "https://supermarket.getchef.com/api/v1"
 
+cookbook 'applications', :github => 'kitchenplan/chef-applications'
+
 cookbook 'witch', :github => 'ryanhanks/witch'
 
 cookbook 'sprout-rbenv',
