@@ -26,9 +26,8 @@ cd ~/Workspaces
 git clone git@github.com:ryanhanks/veggie-salad
 cd veggie-salad
 sudo gem install bundler
-sudo bundle
-sudo pmset sleep 90
 sudo ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future bundle
+sudo pmset sleep 90
 bundle exec soloist
 
 ```
