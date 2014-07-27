@@ -33,8 +33,8 @@ recipes:
 
 
 # apps (editors)
-# - sprout-osx-apps::sublime_text
-- applications::sublime_text_3
+- sprout-osx-apps::sublime_text
+# - applications::sublime_text_3
 
 
 - sprout-osx-apps::flycut
