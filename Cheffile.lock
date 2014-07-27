@@ -118,6 +118,13 @@ GIT
       osx (>= 0.0.0)
       sprout-base (>= 0.0.0)
 
+GIT
+  remote: https://github.com/ryanhanks/witch
+  ref: master
+  sha: 97f6a76f30228a6721d9e480839de5b2dcadee25
+  specs:
+    witch (0.1.0)
+
 DEPENDENCIES
   osx (>= 0)
   sprout-base (>= 0)
@@ -132,4 +139,5 @@ DEPENDENCIES
   sprout-rubymine (>= 0)
   sprout-ssh (>= 0)
   sprout-terminal (>= 0)
+  witch (>= 0)
 

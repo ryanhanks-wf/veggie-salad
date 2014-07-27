@@ -40,6 +40,7 @@ recipes:
 - sprout-osx-apps::shiftit
 
 - sprout-osx-apps::macvim
+- witch::default
 
 node_attributes:
   workspace_directory: Workspaces
