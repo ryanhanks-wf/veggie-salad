@@ -28,7 +28,7 @@ cd veggie-salad
 sudo gem install bundler
 sudo ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future bundle
 sudo pmset sleep 90
-bundle exec soloist
+time bundle exec soloist
 
 ```
 
