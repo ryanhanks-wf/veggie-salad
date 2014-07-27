@@ -37,10 +37,7 @@ recipes:
 # - applications::sublime_text_3
 
 
-- sprout-osx-apps::flycut
-- sprout-osx-apps::shiftit
-
-- sprout-osx-apps::macvim
+# - sprout-osx-apps::macvim
 - witch::default
 
 node_attributes:
