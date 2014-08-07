@@ -88,6 +88,10 @@ node_attributes:
           name: wf-book-common
           url: git@github.com:webfilings/wf-book-common
           workspace_path: ~/Workspaces/mobile
+         -
+          name: veggie-salad
+          url: git@github.com:ryanhanks-wf/veggie-salad
+          workspace_path: ~/Workspaces
     terminal:
       default_profile: 'Pro'
     settings:
