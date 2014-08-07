@@ -2,7 +2,14 @@ SITE
   remote: https://supermarket.getchef.com/api/v1
   specs:
     dmg (2.2.0)
-    homebrew (1.8.0)
+    homebrew (1.9.0)
+
+GIT
+  remote: https://github.com/kitchenplan/chef-sudoalt
+  ref: v2.4
+  sha: 7f9b765e0f14a4fa53ed8b7d8392ef48e42a0ec8
+  specs:
+    sudoalt (2.2.3)
 
 GIT
   remote: https://github.com/pivotal-sprout/osx
@@ -119,12 +126,42 @@ GIT
       sprout-base (>= 0.0.0)
 
 GIT
+  remote: https://github.com/ryanhanks/chef-ngrok
+  ref: master
+  sha: 1a9644b9b22b8c8fdbadf056f3189df950714312
+  specs:
+    ngrok (0.0.0)
+      homebrew (>= 1.6.6)
+
+GIT
+  remote: https://github.com/ryanhanks/chef-nodejs
+  ref: master
+  sha: 87eecb311c7942f6fde59109533d7e68eb43ae5e
+  specs:
+    nodejs (0.0.1)
+      homebrew (>= 0.0.0)
+
+GIT
   remote: https://github.com/ryanhanks/chef-sublime-text
   ref: master
-  sha: a9c9df9420c1195692adbd99801fb9b881c429c2
+  sha: 6562cc5d57512b6f8bbdd1e1bdca820d5ff0067c
   specs:
     sublime-text (2.0.0)
-      sprout-homebrew (>= 0.0.0)
+      sprout-osx-apps (>= 0.0.0)
+
+GIT
+  remote: https://github.com/ryanhanks/chef-totalspaces
+  ref: master
+  sha: 342f98933c959c98d4b7cc69fbe31d88851f6ebc
+  specs:
+    totalspaces (0.1.0)
+
+GIT
+  remote: https://github.com/ryanhanks/sprout-osx-oh-my-zsh
+  ref: master
+  sha: d41a9dfb6107ec72646b46cd441612bdcc6fff05
+  specs:
+    oh-my-zsh (0.0.1)
 
 GIT
   remote: https://github.com/ryanhanks/witch
@@ -134,6 +171,9 @@ GIT
     witch (0.1.0)
 
 DEPENDENCIES
+  ngrok (>= 0)
+  nodejs (>= 0)
+  oh-my-zsh (>= 0)
   osx (>= 0)
   sprout-base (>= 0)
   sprout-git (>= 0)
@@ -148,5 +188,7 @@ DEPENDENCIES
   sprout-ssh (>= 0)
   sprout-terminal (>= 0)
   sublime-text (>= 0)
+  sudoalt (>= 0)
+  totalspaces (>= 0)
   witch (>= 0)
 

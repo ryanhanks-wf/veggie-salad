@@ -2,7 +2,17 @@
 
 site "https://supermarket.getchef.com/api/v1"
 
-cookbook 'sublime-text', :github => 'ryanhanks/chef-sublime-text'
+cookbook "nodejs", :github => "ryanhanks/chef-nodejs"
+
+cookbook "sublime-text", :github => "ryanhanks/chef-sublime-text"
+
+cookbook "ngrok", :github => "ryanhanks/chef-ngrok"
+
+cookbook "sudoalt",               :github => "kitchenplan/chef-sudoalt",        :ref => "v2.4"
+
+cookbook "oh-my-zsh", :github => "ryanhanks/sprout-osx-oh-my-zsh"
+
+cookbook 'totalspaces', :github => 'ryanhanks/chef-totalspaces'
 
 cookbook 'witch', :github => 'ryanhanks/witch'
 

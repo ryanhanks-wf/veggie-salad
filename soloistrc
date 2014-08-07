@@ -1,8 +1,8 @@
 recipes:
 
-# base (required by sprout)
-- sprout-base
-- sprout-base::bash_it
+- sudoalt
+- sprout-base # base (required by sprout)
+- oh-my-zsh
 - sprout-base::homebrew
 - sprout-homebrew
 
@@ -20,10 +20,6 @@ recipes:
 - sprout-git::projects
 - sprout-git::git_scripts
 
-# development (rails)
-- sprout-rbenv
-- sprout-ruby
-
 # apps
 - sprout-osx-apps::iterm2
 - sprout-osx-apps::flycut
@@ -35,14 +31,34 @@ recipes:
 # apps (editors)
 - sublime-text
 
-# - sprout-osx-apps::macvim
 - witch::default
+- totalspaces
+- nodejs
+- ngrok
 
 node_attributes:
-  bash_it:
-    repository: https://github.com/ryanhanks/bash-it
+  authorization:
+    sudo:
+      users:
+        - ryanhanks
+      passwordless: true
+      include_sudoers_d: true
+  nodejs:
+    apps:
+      - bower
+      - grunt
+      - grunt-cli
+      - cordova
+      - generator-gulp-webapp
+      - weinre
+      - appium
+      - wd
+      - mocha
+  oh_my_zsh:
+    repository: git@github.com:ryanhanks-wf/oh-my-zsh
   workspace_directory: Workspaces
   sprout:
+    home: /Users/ryanhanks
     rbenv:
       rubies:
         - 2.0.0-p247
@@ -54,24 +70,24 @@ node_attributes:
     git:
       global_config:
         user.name: '"Ryan Hanks"'
-        user.email: ryandhanks@gmail.com
+        user.email: ryan.hanks@gmail.com
       projects:
         -
-          name: ios-app
-          url: git@github.com:ryanhanks/pk-ios-app
-          workspace_path: ~/Workspaces/pk
+          name: mobile
+          url: git@github.com:webfilings/mobile
+          workspace_path: ~/Workspaces/mobile
         -
-          name: mobile-frontend
-          url: git@github.com:ryanhanks/pk-mobile-frontend
-          workspace_path: ~/Workspaces/pk
+          name: wf-book-viewer-component
+          url: git@github.com:webfilings/wf-book-viewer-component
+          workspace_path: ~/Workspaces/mobile
         -
-          name: backend
-          url: git@github.com:ryanhanks/pk-backend
-          workspace_path: ~/Workspaces/pk
+          name: wf-book-viewer
+          url: git@github.com:webfilings/wf-book-viewer
+          workspace_path: ~/Workspaces/mobile
         -
-          name: osx-interaction-preferences
-          url: git@github.com:ryanhanks/cookbooks-osx-interaction-preferences
-          workspace_path: ~/Workspaces/cookbooks/osx-interaction-preferences
+          name: wf-book-common
+          url: git@github.com:webfilings/wf-book-common
+          workspace_path: ~/Workspaces/mobile
     terminal:
       default_profile: 'Pro'
     settings:
@@ -84,12 +100,15 @@ node_attributes:
         - chromedriver
         - wget
       casks:
-        - github
         - google-chrome
         - dropbox
         - vmware-fusion
         - witch
         - onepassword
+        - omnifocus
+        - totalspaces
+        - googleappenginelauncher
+        - java
 
 
 
