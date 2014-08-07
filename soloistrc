@@ -77,8 +77,8 @@ node_attributes:
           url: git@github.com:webfilings/mobile
           workspace_path: ~/Workspaces/mobile
         -
-          name: wf-book-viewer-component
-          url: git@github.com:webfilings/wf-book-viewer-component
+          name: wf-book-viewer-mobile
+          url: git@github.com:webfilings/wf-book-viewer-mobile
           workspace_path: ~/Workspaces/mobile
         -
           name: wf-book-viewer
