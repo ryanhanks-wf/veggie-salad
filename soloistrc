@@ -116,5 +116,5 @@ node_attributes:
         - android-studio-bundle
         - genymotion
         - virtualbox
-
+        - hipchat
 
