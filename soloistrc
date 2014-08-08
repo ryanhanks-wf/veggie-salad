@@ -114,5 +114,7 @@ node_attributes:
         #- googleappenginelauncher
         - java
         - android-studio-bundle
+        - genymotion
+
 
 
