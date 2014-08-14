@@ -113,8 +113,10 @@ node_attributes:
         - onepassword
         - omnifocus
         - totalspaces
-        - googleappenginelauncher
+        #- googleappenginelauncher
         - java
-
-
+        - android-studio-bundle
+        - genymotion
+        - virtualbox
+        - hipchat
 
